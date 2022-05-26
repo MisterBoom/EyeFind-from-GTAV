@@ -1,0 +1,300 @@
+/*Parte di Alex*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url("/Cursors/default.cur"), default;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-color: rgb(73, 139, 194);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: rgb(284, 190, 0) 15px solid;
+}
+
+.bar {
+    margin-right: 400px;
+    margin-left: 400px;
+    width: 1050px;
+}
+
+.firstPart {
+    display: flex;
+}
+
+.eyeKingLogo {
+    width: 250px;
+    height: 110px;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.listDiv {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.listUl {
+    display: flex;
+}
+
+.separator {
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+    margin-inline: 30px;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.listUl .list .link {
+    display: flex;
+}
+
+.listUl .list .link .icon {
+    min-width: 40px;
+}
+
+.secondPart {
+    margin-top: 15px;
+    display: flex;
+}
+
+.searchBar {
+    display: flex;
+    background-color: #fff;
+    width: 750px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    filter: invert(70%) sepia(31%) saturate(6295%) hue-rotate(182deg) brightness(83%) contrast(78%);
+    margin-left: 20px;
+    margin-top: 5px;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.search {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.searchDecoration {
+    border: none;
+    font-size: 20px;
+    color: black;
+    width: 650px;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.searchDecoration:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    transition: ease 0.3s;
+}
+
+:focus::-webkit-input-placeholder {
+    opacity: 0.3;
+}
+
+.rButton {
+    height: 50px;
+    background-color: rgb(2, 114, 142);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 20px;
+    margin-left: 130px;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.secondBackground {
+    background-color: rgb(240, 240, 240);
+    border-bottom: rgb(206, 206, 206) solid 2px;
+}
+
+.navbar {
+    margin-left: 390px;
+    margin-right: 390px;
+}
+
+.navbarUl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarLi {
+    list-style: none;
+    text-align: center;
+    border-left: rgb(206, 206, 206) solid 2px;
+    margin-inline: 20px;
+    padding: 7px;
+}
+
+.navbarLiWhitoutLine {
+    list-style: none;
+    text-align: center;
+    margin-inline: 20px;
+    padding: 7px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #000;
+    cursor: url("/Cursors/pointer.cur"), pointer;
+    transition: ease 0.2s;
+}
+
+.icon2 {
+    filter: invert(70%) sepia(31%) saturate(6295%) hue-rotate(182deg) brightness(83%) contrast(78%);
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+.navbarUl .navbarLi .navLink {
+    display: flex;
+}
+
+.navbarUl .navbarLi .navLink .icon2 {
+    min-width: 40px;
+    margin-right: 10px;
+}
+
+.navbarUl .navbarLiWhitoutLine .navLink {
+    display: flex;
+}
+
+.navbarUl .navbarLiWhitoutLine .navLink .icon2 {
+    min-width: 40px;
+    margin-right: 10px;
+}
+
+.img-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.bennyscritte {
+    margin-left: 18px;
+}
+
+.scritta {
+    margin-top: 8px;
+    line-height: 1.8;
+}
+
+.p {
+    margin-top: 5px;
+}
+
+.imgelitas-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.elitascritte {
+    margin-left: 18px;
+}
+
+.imglegendary-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.legendaryscritte {
+    margin-left: 18px;
+}
+
+.imgwarstock-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.warstockscritte {
+    margin-left: 18px;
+}
+
+.imgdock-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.dockscritte {
+    margin-left: 18px;
+}
+
+.imgsanandreasauto-scritte {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.sanandreasautoscritte {
+    margin-left: 18px;
+}
+
+.scritte,
+.img,
+img,
+.bennyscritte,
+.p,
+b,
+p,
+.scritta,
+.imgelitas-scritte,
+.elitascritte,
+.imglegendary-scritte,
+.legendaryscritte,
+.imgwarstock-scritte,
+.warstockscritte,
+.imgdock-scritte,
+.dockscritte,
+.imgsanandreasauto-scritte,
+.sanandreasautoscritte {
+    cursor: url("/Cursors/pointer.cur"), pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(284, 190, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(2, 114, 142);
+}
